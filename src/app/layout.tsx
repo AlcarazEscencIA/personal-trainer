@@ -23,14 +23,14 @@ const fontMono = Space_Mono({
 
 export const metadata: Metadata = {
   title: "ABRIL PETRUZZO | Pilates & Elite Reformer Coaching",
-  description: "Entrenamiento personalizado de alto rendimiento, pilates de autor y transformaciones reales. Modalidad presencial y online para deportistas, ejecutivos y personas exigentes.",
+  description: "PETRUZZO ABRIL - ENTRENAMIENTOS PERSONALIZADOS",
   metadataBase: new URL("https://abrilpetruzzo.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "ABRIL PETRUZZO | Pilates & Elite Reformer Coaching",
-    description: "Alcanza tu máximo potencial físico con un método de Pilates basado en biomecánica, fuerza y personalización absoluta.",
+    description: "PETRUZZO ABRIL - ENTRENAMIENTOS PERSONALIZADOS",
     url: "https://abrilpetruzzo.com",
     siteName: "Abril Petruzzo Coaching",
     locale: "es_AR",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ABRIL PETRUZZO | Pilates & Elite Coaching",
-    description: "Pilates de alto nivel, entrenamientos presenciales y online con seguimiento de nivel médico.",
+    description: "PETRUZZO ABRIL - ENTRENAMIENTOS PERSONALIZADOS",
   },
   robots: {
     index: true,

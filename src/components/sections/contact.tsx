@@ -35,8 +35,8 @@ export default function Contact() {
       whatsapp: "",
       edad: 25,
       modalidad: "Asesoramiento Online",
-      objetivo: "Alineación y Postura",
-      experiencia: "Intermedio (Pilates o Gimnasio)",
+      objetivo: "Fuerza e Hipertrofia",
+      experiencia: "Intermedio (Gym regular)",
       compromiso: false,
     }
   });
@@ -75,12 +75,12 @@ export default function Contact() {
 
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-          
+
           {/* Left Column: CTA Pitch */}
           <div className="lg:col-span-5 space-y-8">
             <div className="space-y-4">
               <SectionBadge>// SISTEMA DE POSTULACIÓN</SectionBadge>
-              
+
               <SectionTitle
                 title={
                   <>
@@ -91,7 +91,7 @@ export default function Contact() {
                 }
                 className="text-4xl md:text-6xl"
               />
-              
+
               <p className="text-zinc-400 text-sm font-light leading-relaxed pt-2">
                 Mis cupos mensuales son estrictamente limitados. Completá el formulario de postulación y, si sos la persona indicada para el programa, me voy a poner en contacto en menos de 24 horas para coordinar los próximos pasos.
               </p>
@@ -104,7 +104,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-white text-sm uppercase tracking-wider">// MODALIDAD ONLINE</h4>
-                  <p className="text-zinc-400 text-xs font-light leading-relaxed mt-1">Trabajo de forma 100% online. Enténate desde cualquier lugar del mundo con planes totalmente personalizados.</p>
+                  <p className="text-zinc-400 text-xs font-light leading-relaxed mt-1">Trabajo de forma 100% online. Recibís tu rutina de entrenamiento de fuerza desde cualquier lugar del mundo, con planes totalmente personalizados a tu necesidad y nivel.</p>
                 </div>
               </div>
 
@@ -128,7 +128,7 @@ export default function Contact() {
 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                
+
                 {/* Full Name */}
                 <div className="space-y-2">
                   <label htmlFor="nombre" className="font-mono text-[9px] text-zinc-400 tracking-wider uppercase block">
@@ -262,11 +262,10 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitted}
-                className={`w-full flex items-center justify-center space-x-3 border px-6 py-4 min-h-[52px] rounded-none font-display font-semibold text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer ${
-                  isSubmitted
+                className={`w-full flex items-center justify-center space-x-3 border px-6 py-4 min-h-[52px] rounded-none font-display font-semibold text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer ${isSubmitted
                     ? "bg-gold-accent text-obsidian border-gold-accent"
                     : "bg-transparent text-white border-zinc-800 hover:border-gold-accent/40 hover:bg-zinc-900"
-                }`}
+                  }`}
               >
                 {isSubmitted ? (
                   <>

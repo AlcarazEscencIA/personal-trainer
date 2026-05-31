@@ -27,13 +27,13 @@ export default function Services() {
       id: "program-1",
       num: "01",
       name: "ASESORAMIENTO ONLINE",
-      subtitle: "ENTRENAMIENTO PERSONALIZADO + PLAN DE ALIMENTACIÓN + SEGUIMIENTO CONSTANTE",
+      subtitle: "ENTRENAMIENTO DE FUERZA PERSONALIZADO · ALIMENTACIÓN · SEGUIMIENTO CONSTANTE",
       price: "Consultar Tarifa Completa",
       spots: "Solo 10 cupos disponibles este mes",
       description: [
-        "Un acompañamiento integral pensado para ayudarte a lograr resultados reales de manera sostenible y adaptada completamente a vos.",
-        "Dejá atrás las rutinas y planes genéricos. Este programa está diseñado para entender tus objetivos, tu estilo de vida, tus tiempos y las necesidades reales de tu cuerpo, creando una planificación personalizada que puedas sostener y disfrutar a largo plazo.",
-        "La propuesta combina entrenamiento, alimentación y seguimiento diario para acompañarte durante todo tu proceso y ayudarte a construir hábitos más saludables, consistentes y efectivos.",
+        "Un acompañamiento integral de entrenamiento de fuerza, pensado para ayudarte a lograr resultados reales de manera sostenible y adaptada completamente a vos.",
+        "Dejá atrás las rutinas genéricas. Este programa de fuerza está diseñado para entender tus objetivos, tu nivel físico actual, tus tiempos y las necesidades reales de tu cuerpo, ya seas principiante, intermedia o avanzada, creando una planificación progresiva que puedas sostener y disfrutar a largo plazo.",
+        "La propuesta combina entrenamiento de fuerza, alimentación y seguimiento diario para acompañarte durante todo tu proceso y ayudarte a construir hábitos más saludables, consistentes y efectivos.",
       ],
       features: [
         "Rutina de entrenamiento personalizada según objetivos y nivel físico",
@@ -49,19 +49,19 @@ export default function Services() {
       id: "program-2",
       num: "02",
       name: "RUTINA DE ENTRENAMIENTO",
-      subtitle: "PLANIFICACIÓN PERSONALIZADA PARA POTENCIAR TU PROGRESO",
+      subtitle: "RUTINA DE FUERZA PERSONALIZADA A TU NECESIDAD Y NIVEL",
       price: "Consultar Tarifa Plan",
       spots: "Cupos limitados este mes",
       description: [
-        "Un programa de entrenamiento diseñado específicamente para vos, teniendo en cuenta tus objetivos, experiencia, disponibilidad y nivel físico actual.",
-        "Cada rutina busca optimizar tu rendimiento y ayudarte a progresar de manera ordenada, eficiente y sostenible, respetando tus tiempos y adaptándose a tu realidad diaria.",
-        "El enfoque está puesto en crear un entrenamiento claro, estructurado y personalizado, pensado para que puedas avanzar con constancia y maximizar tus resultados.",
+        "Una rutina de entrenamiento de fuerza diseñada específicamente para vos, teniendo en cuenta tus objetivos, experiencia, disponibilidad y nivel físico actual, sin importar si estás empezando desde cero o ya entrenás con frecuencia.",
+        "Cada ejercicio está seleccionado estratégicamente para optimizar tu rendimiento y ayudarte a progresar de manera ordenada, eficiente y sostenible, respetando tus tiempos y adaptándose a tu realidad diaria.",
+        "El enfoque está puesto en crear un plan de fuerza claro, estructurado y personalizado a tu necesidad, pensado para que puedas avanzar con constancia y maximizar tus resultados.",
       ],
       features: [
-        "Rutina personalizada según objetivos y nivel físico",
+        "Rutina de fuerza personalizada según tu nivel y objetivos",
         "Adaptación a tu disponibilidad horaria y ritmo semanal",
         "Organización estratégica del entrenamiento",
-        "Ejercicios pensados según tus necesidades y metas",
+        "Selección estratégica de ejercicios según tus necesidades",
         "Estructura progresiva para mejorar el rendimiento",
         "Enfoque orientado a resultados reales y sostenibles",
       ],
@@ -101,7 +101,7 @@ export default function Services() {
       className="relative bg-obsidian py-16 md:py-24 lg:py-32 px-6 overflow-hidden border-t border-zinc-900"
     >
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Header Block */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div className="space-y-4">
@@ -113,10 +113,10 @@ export default function Services() {
           </div>
           <div className="text-zinc-400 text-sm max-w-md font-light leading-relaxed space-y-4">
             <p>
-              Planes personalizados diseñados para ayudarte a lograr resultados reales de forma sostenible y adaptada a vos.
+              Planes de entrenamiento de fuerza diseñados y personalizados según tus objetivos y necesidades — ya sea que estés empezando, buscando progresar o querés llevar tu rendimiento al siguiente nivel.
             </p>
             <p>
-              Cada programa combina planificación inteligente, acompañamiento cercano y una estructura pensada para que puedas avanzar con claridad, disciplina y enfoque.
+              Cada programa combina planificación inteligente de fuerza, acompañamiento cercano y una estructura pensada para que puedas avanzar con claridad, disciplina y enfoque.
             </p>
           </div>
         </div>
@@ -231,7 +231,7 @@ export default function Services() {
         <div className="mt-20 overflow-hidden w-full select-none pointer-events-none relative py-6 border-y border-zinc-900 bg-zinc-950/40">
           <div className="animate-marquee flex items-center space-x-12 whitespace-nowrap">
             {Array(3)
-              .fill(["ONLINE", "PERSONALIZADO", "ALIMENTACION", "ABRIL FITNESS", "CONSTANCIA", "DISCIPLINA", "SALUD"])
+              .fill(["ONLINE", "FUERZA", "PERSONALIZADO", "ALIMENTACION", "CONSTANCIA", "DISCIPLINA", "SALUD"])
               .flat()
               .map((word, index) => (
                 <span

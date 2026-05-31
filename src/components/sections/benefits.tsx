@@ -10,7 +10,7 @@ export default function Benefits() {
   const benefitsList = [
     {
       title: "PERSONALIZACIÓN REAL",
-      desc: "Cada plan se diseña según tus objetivos, tu nivel físico y tu estilo de vida. Nada es genérico: cada entrenamiento está estructurado estratégicamente para ayudarte a progresar de manera eficiente, segura y sostenible.",
+      desc: "Cada plan de entrenamiento de fuerza se diseña según tus objetivos, tu nivel físico y tu estilo de vida. Nada es genérico: si estás empezando, buscás hipertrofia, fuerza funcional o mejorar tu composición corporal, cada rutina está estructurada estratégicamente para que progreses de manera eficiente, segura y sostenible.",
     },
     {
       title: "ACOMPAÑAMIENTO CONSTANTE",
@@ -22,7 +22,7 @@ export default function Benefits() {
     },
     {
       title: "ONLINE & PRESENCIAL",
-      desc: "Entrená desde cualquier lugar o de forma presencial con una experiencia totalmente personalizada. Cada modalidad está diseñada para adaptarse a tu rutina sin perder calidad, seguimiento ni enfoque profesional.",
+      desc: "Recibís tu rutina de entrenamiento de fuerza sin importar dónde estés. El plan llega a vos con instrucciones claras y seguimiento constante, adaptándose a tu realidad y tu lugar de entrenamiento.",
     },
   ];
 
@@ -47,12 +47,12 @@ export default function Benefits() {
               />
               <div className="text-zinc-200 text-sm max-w-lg font-light leading-relaxed pt-2 space-y-4">
                 <p>
-                  Cada proceso está pensado para ayudarte a construir resultados reales, sostenibles y adaptados completamente a vos.
+                  Cada proceso de entrenamiento de fuerza está pensado para ayudarte a construir resultados reales, sostenibles y adaptados completamente a vos y a lo que necesitás.
                   <br />
-                  No se trata solamente de entrenar, sino de desarrollar hábitos, disciplina y una versión más fuerte de vos misma.
+                  No se trata solamente de levantar pesas, sino de desarrollar hábitos, disciplina y una versión más fuerte de vos misma, adaptando cada etapa a tu nivel y evolución.
                 </p>
                 <p>
-                  Mi objetivo es ofrecerte una experiencia cercana, profesional y personalizada, donde cada entrenamiento tenga un propósito y cada avance forme parte de una transformación integral.
+                  Mi objetivo es ofrecerte una experiencia cercana, profesional y personalizada de entrenamiento de fuerza, donde cada ejercicio tenga un propósito claro y cada sesión forme parte de una transformación integral.
                 </p>
               </div>
             </div>

@@ -7,7 +7,7 @@ import { SectionTitle } from "@/components/ui/section-title";
 
 export default function BeforeAfter() {
   const metrics = [
-    { value: "4", label: "Meses de proceso", sub: "Entrenamiento constante desde el primer día" },
+    { value: "4", label: "Meses de proceso", sub: "Entrenamiento de fuerza constante desde el primer día" },
     { value: "↑", label: "Fuerza y energía", sub: "Mejora real y visible en cada sesión" },
     { value: "✓", label: "Alimentación acompañada", sub: "Guía nutricional incluida en el seguimiento" },
     { value: "★", label: "Resultado que se ve", sub: "Cambio físico y mental comprobable" },
@@ -20,7 +20,7 @@ export default function BeforeAfter() {
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column: Analytical Transformation Stats */}
           <div className="lg:col-span-5 space-y-10">
             <div className="space-y-4">
@@ -30,7 +30,7 @@ export default function BeforeAfter() {
                 subtitle="EVOLUCIÓN"
               />
               <p className="text-zinc-400 text-sm font-light leading-relaxed pt-2">
-                Este es el resultado real de 4 meses de entrenamiento personalizado, alimentación guiada y seguimiento constante. Sin atajos. Sin promesas vacías. Solo método, compromiso y un cambio que se ve.
+                Este es el resultado real de 4 meses de entrenamiento de fuerza, alimentación guiada y seguimiento constante. Sin atajos. Sin promesas vacías. Solo método, compromiso y un cambio que se ve.
               </p>
             </div>
 
@@ -74,7 +74,7 @@ export default function BeforeAfter() {
             />
 
             <div className="bg-zinc-950/80 p-3 sm:p-4 border border-zinc-900 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 text-xs text-zinc-400 font-light">
-              <span><strong>Resultado real:</strong> Alumna con entrenamiento, alimentación y seguimiento personalizado.</span>
+              <span><strong>Resultado real:</strong> Alumna con entrenamiento de fuerza, alimentación y seguimiento personalizado.</span>
               <span className="text-gold-accent font-mono text-[10px]">Proceso: 4 Meses</span>
             </div>
           </div>

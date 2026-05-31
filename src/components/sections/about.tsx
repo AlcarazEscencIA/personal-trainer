@@ -56,7 +56,7 @@ export default function About() {
                 transition={{ duration: 0.8, delay: 0.1, ease }}
                 className="font-display font-light text-lg md:text-xl text-zinc-100 leading-snug"
               >
-                Soy <strong className="font-bold text-white">Abril Petruzzo</strong>, entrenadora personal especializada en transformación física y desarrollo de hábitos sostenibles.
+                Soy <strong className="font-bold text-white">Abril Petruzzo</strong>, entrenadora personal especializada en entrenamiento de fuerza, transformación física y desarrollo de hábitos sostenibles.
               </motion.p>
 
               <motion.p
@@ -66,7 +66,7 @@ export default function About() {
                 transition={{ duration: 0.8, delay: 0.18, ease }}
                 className="text-zinc-400 text-sm md:text-base leading-relaxed font-light"
               >
-                Mi enfoque no se basa solamente en entrenar el cuerpo, sino en ayudarte a construir una versión más fuerte, equilibrada y segura de vos misma. Entiendo que cada persona tiene un punto de partida distinto, por eso trabajo con planes totalmente personalizados, diseñados según tus objetivos, tu ritmo y tu estilo de vida.
+                Mi enfoque está en el entrenamiento de fuerza, adaptado 100% a la necesidad de cada persona. Ya seas principiante, intermedia o deportista con experiencia, trabajo con planes totalmente personalizados, diseñados según tus objetivos, tu ritmo y tu estilo de vida.
               </motion.p>
 
               <motion.p
@@ -137,7 +137,7 @@ export default function About() {
                 ABRIL PETRUZZO
               </span>
               <span className="text-[11px] text-zinc-400 font-light mt-0.5 block">
-                Transformación Física · Hábitos Sostenibles · Online & Presencial
+                Transformación Física · Entrenamiento de Fuerza · Online & Presencial
               </span>
             </div>
           </motion.div>
