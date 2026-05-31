@@ -9,6 +9,8 @@ interface SliderProps {
   afterImage: string;
   beforeLabel?: string;
   afterLabel?: string;
+  beforeLabelMobile?: string;
+  afterLabelMobile?: string;
 }
 
 export default function ComparisonSlider({
@@ -16,6 +18,8 @@ export default function ComparisonSlider({
   afterImage,
   beforeLabel = "ANTES",
   afterLabel = "DESPUÉS",
+  beforeLabelMobile,
+  afterLabelMobile,
 }: SliderProps) {
   const [sliderPosition, setSliderPosition] = useState(50); // percentage (0 to 100)
   const containerRef = useRef<HTMLDivElement>(null);
@@ -80,7 +84,11 @@ export default function ComparisonSlider({
         sizes="(max-width: 1024px) 100vw, 50vw"
       />
       <div className="absolute bottom-6 left-6 bg-obsidian/80 backdrop-blur-md px-4 py-2 font-mono text-[10px] tracking-widest text-zinc-400 border border-zinc-800/80 z-20">
-        {beforeLabel}
+        {/* Mobile: solo muestra el label corto; Desktop: label completo */}
+        {beforeLabelMobile && (
+          <span className="block sm:hidden">{beforeLabelMobile}</span>
+        )}
+        <span className={beforeLabelMobile ? "hidden sm:block" : ""}>{beforeLabel}</span>
       </div>
 
       {/* After Image (Top Layer, Clipped) */}
@@ -99,7 +107,11 @@ export default function ComparisonSlider({
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
         <div className="absolute bottom-6 right-6 bg-gold-accent/90 backdrop-blur-md px-4 py-2 font-mono text-[10px] tracking-widest text-obsidian font-bold border border-gold-accent/40 z-20">
-          {afterLabel}
+          {/* Mobile: solo muestra el label corto; Desktop: label completo */}
+          {afterLabelMobile && (
+            <span className="block sm:hidden">{afterLabelMobile}</span>
+          )}
+          <span className={afterLabelMobile ? "hidden sm:block" : ""}>{afterLabel}</span>
         </div>
       </div>
 

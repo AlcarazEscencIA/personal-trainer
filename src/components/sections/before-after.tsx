@@ -69,6 +69,8 @@ export default function BeforeAfter() {
               afterImage="/images/despues.png"
               beforeLabel="ANTES — Mes 1"
               afterLabel="DESPUÉS — 4 Meses"
+              beforeLabelMobile="1 MES"
+              afterLabelMobile="4 MESES"
             />
 
             <div className="bg-zinc-950/80 p-3 sm:p-4 border border-zinc-900 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 text-xs text-zinc-400 font-light">
